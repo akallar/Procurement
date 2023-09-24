@@ -1,0 +1,127 @@
+
+body{
+background-color: #FBF8F1;
+}
+
+
+h1 {
+    font-family : Montserrat;
+    color : #DD4A48;
+    text-align:center;
+}
+.all-buttons {
+    width: 100%;
+    padding :0;
+    margin: 0;
+    font-family : Montserrat;
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.Procure{
+margin :(10%, auto, 10%, auto);
+/*label : 1;*/
+}
+
+.Receive{
+    margin :(10%, auto, 10%, auto);
+/*label : 2 */
+}
+
+.Invoices{
+    margin :(10%, auto, 10%, auto);
+    /*label : 3;*/
+}
+.a{
+    font-family : Montserrat;
+    background-color:#27E1C1;
+    color : #DD4A48;
+    font-size : 1.2 rem;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 5%;
+    border : none;
+}
+
+#purchaseForm{
+    
+    font-family : Montserrat;
+    background-color:#F7ECDE;
+    display: flex;
+   flex-direction: column;
+    flex-wrap :nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+
+}
+
+
+.break-bar{
+
+    Height : 20px;
+    padding : 2px;
+    
+}
+.invisible{
+     visibility : visible;
+}
+
+#PurchaseSubmitButton{
+    font-family : Montserrat;
+    background-color:#DD4A48;
+    color :#27E1C1;
+    font-style: italic;
+    text-align: center;
+    order : 11;
+    min-height: 8%;
+    min-width : 5em;
+}
+
+#a1 {
+    font-family : Montserrat;
+    order : 2;
+}
+#a2 {
+    font-family : Montserrat;
+    order : 4;
+}
+#a3 {
+    font-family : Montserrat;
+    order: 6;
+}
+#a4 {
+    font-family : Montserrat;
+    order : 8;
+}
+#a5 {
+    font-family : Montserrat;
+ order : 10;
+}
+#l1 {
+    font-family : Montserrat;
+ color: #0E21A0;
+    order : 1;
+}
+#l2 {
+    font-family : Montserrat;
+    color: #0E21A0;
+    order : 3;
+}
+#l3 {
+    font-family : Montserrat;
+    color: #0E21A0;
+    order: 5;
+}
+#l4 {
+    font-family : Montserrat;
+    color:#0E21A0;
+    order : 7;
+}
+#l5 {
+    font-family : Montserrat;
+ color:#0E21A0; 
+ order : 9;
+}

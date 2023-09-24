@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<head>
+    <lang="en">
+	<meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link type="text/css" href='style.css' rel="stylesheet">
+	<title>Procurement Module</title>
+</head>
+
+<script> src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+crossorigin="anonymous" </script>
+
+<script type="text/javascript" src="index.js"></script>;
+<script>
+	const b =document.querySelector('#Purchase');
+
+const d = document.querySelector('#purchaseForm');
+b.addEventListener('click', output =()=>function(event) {
+if(!event) {
+    console.log("nothing' been clicked");
+};
+if(event)
+{console.log(event.type)};
+});
+    /*setTimeout(d.toggle('.invisible'),1000);
+   d.toggle('.invisible')};*/
+</script>
+<body>
+<h1> Amrit Kallar Co.</h1>
+<div class = all-buttons>    
+<button class = a id = "Purchase">Procure</button>
+<button class = a id ="Receive">Receive</button>
+<button class = a id ="Invoices">Invoices</button>   
+</div> 
+<div class="break-bar">
+</div>
+
+<form id="purchaseForm" action="/" method ="post">
+<input type="text" id ="a1" name= "Description" placeholder="Enter Description" >
+<label for="a1" id ="l1"> Purchase Description</label> 
+<input type="number" id="a2" name="OrderAmount" placeholder="Input Total Purchase Amount in Local Currency Here " >
+<label for="a2" id ="l2"> Amount $</label>
+<input type="date" id="a3" name="StartDate" placeholder="Type Date of START of Contract Here" >
+<label for="a3" id="l3"> Start Date</label>
+<input type="date" id="a4" name="EndDate" placeholder="Type Date of END of Contract Here" >
+<label for="a4" id="l4"> End Date</label>
+<input type="text" id="a5" name="SupplierName" placeholder="Type Supplier Name Here" >
+<label for="a5" id="l5">Supplier</label>
+<button type = "submit" id = "PurchaseSubmitButton">Submit</button>
+</form>
+
+</body>
+</html>
